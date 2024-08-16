@@ -1,0 +1,38 @@
+//################################ stdfaust.lib ##########################################
+// The purpose of this library is to give access to all the Faust standard libraries
+// through a series of environments.
+//########################################################################################
+
+aa = library("pkg:faust/faust/aanl.lib@1.3.0");
+sf = library("pkg:faust/faust/all.lib@1.0.0");
+an = library("pkg:faust/faust/analyzers.lib@1.2.0");
+ba = library("pkg:faust/faust/basics.lib@1.19.1");
+co = library("pkg:faust/faust/compressors.lib@1.6.0");
+de = library("pkg:faust/faust/delays.lib@1.1.0");
+dm = library("pkg:faust/faust/demos.lib@1.2.0");
+dx = library("pkg:faust/faust/dx7.lib@1.1.0");
+en = library("pkg:faust/faust/envelopes.lib@1.3.0");
+fd = library("pkg:faust/faust/fds.lib@1.1.0");
+fi = library("pkg:faust/faust/filters.lib@1.3.0");
+ho = library("pkg:faust/faust/hoa.lib@1.4.0");
+it = library("pkg:faust/faust/interpolators.lib@1.3.1");
+ma = library("pkg:faust/faust/maths.lib@2.8.0");
+mi = library("pkg:faust/faust/mi.lib@1.1.0");
+ef = library("pkg:faust/faust/misceffects.lib@2.5.0");
+os = library("pkg:faust/faust/oscillators.lib@1.5.1");
+no = library("pkg:faust/faust/noises.lib@1.4.1");
+pf = library("pkg:faust/faust/phaflangers.lib@1.1.0");
+pl = library("pkg:faust/faust/platform.lib@1.3.0");
+pm = library("pkg:faust/faust/physmodels.lib@1.1.0");
+qu = library("pkg:faust/faust/quantizers.lib@1.1.0");
+rm = library("pkg:faust/faust/reducemaps.lib@1.2.0");
+re = library("pkg:faust/faust/reverbs.lib@1.3.0");
+ro = library("pkg:faust/faust/routes.lib@1.2.0");
+sp = library("pkg:faust/faust/spats.lib@1.1.0");
+si = library("pkg:faust/faust/signals.lib@1.6.0");
+so = library("pkg:faust/faust/soundfiles.lib@1.7.0");
+sy = library("pkg:faust/faust/synths.lib@1.1.0");
+ve = library("pkg:faust/faust/vaeffects.lib@1.2.1");
+vl = library("pkg:faust/faust/version.lib@1.0.0");
+wa = library("pkg:faust/faust/webaudio.lib@1.1.0");
+wd = library("pkg:faust/faust/wdmodels.lib@1.2.1");
