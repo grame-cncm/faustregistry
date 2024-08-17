@@ -24,12 +24,14 @@ jobs:
             cd documentation/doc
             make install
             make build
+            
         
         - name: list files
           run: |
             ls -la
             echo "List of files in docs"
             ls -la ./docs
+            pwd
     
         - name: Deploy docs
           uses: peaceiris/actions-gh-pages@v4
