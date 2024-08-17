@@ -28,6 +28,8 @@ jobs:
         - name: list files
           run: |
             ls -la
+            echo "List of files in docs"
+            ls -la ./docs
     
         - name: Deploy docs
           uses: peaceiris/actions-gh-pages@v4
