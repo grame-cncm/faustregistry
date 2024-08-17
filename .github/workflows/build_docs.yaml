@@ -24,20 +24,13 @@ jobs:
             cd documentation/doc
             make install
             make build
-            pwd
         
-        - name: list files
-          run: |
-            ls -la
-            echo "List of files in docs"
-            ls -la ./docs
-            pwd
-    
+        
         - name: Deploy docs
           uses: peaceiris/actions-gh-pages@v4
           with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: ../docs
+            publish_dir: docs
       
 
 
