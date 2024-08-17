@@ -24,7 +24,7 @@ jobs:
             cd documentation/doc
             make install
             make build
-            
+            pwd
         
         - name: list files
           run: |
