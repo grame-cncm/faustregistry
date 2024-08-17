@@ -1,4 +1,5 @@
 site_name: Faust Registry
+site_dir: ../../docs
 title_brand: Registry
 site_description: Faust Registry Documentation.
 copyright: Copyright &copy; 2019-2024 <a href="https://www.grame.fr">Grame-CNCM</a>
@@ -22,6 +23,5 @@ markdown_extensions:
 - mdx_math
 - toc:
     baselevel: 1
-site_dir: ../docs
 extra_css:
 - css/extra.css
