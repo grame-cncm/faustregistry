@@ -11,7 +11,6 @@ nav:
   - ' Copyright/License ': about.md
 - About: about.md
 - Contributors:
-  - docs: contributors/docs/overview.md
   - faust: contributors/faust/overview.md
 theme:
   name: mkdocs
