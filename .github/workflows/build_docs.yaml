@@ -1,0 +1,36 @@
+name: "Build Docs"
+  
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+        - uses: actions/checkout@v2
+    
+        - name: Install dependencies
+          run: |
+            sudo apt update
+            sudo apt install python3 make python3-pip gawk
+        
+        - name: Build the documentation
+          run: | 
+            cd documentation/doc
+            make install
+            make build
+              
+    
+        - name: Deploy docs
+          uses: peaceiris/actions-gh-pages@v4
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./docs
+      
+
+

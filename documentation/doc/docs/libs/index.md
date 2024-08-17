@@ -1,0 +1,980 @@
+# Faust Libraries Index
+
+--------
+
+
+## aanl
+
+[(aa.)clip](aanl/#aaclip) &nbsp; &nbsp;
+[(aa.)Rsqrt](aanl/#aarsqrt) &nbsp; &nbsp;
+[(aa.)Rlog](aanl/#aarlog) &nbsp; &nbsp;
+[(aa.)Rtan](aanl/#aartan) &nbsp; &nbsp;
+[(aa.)Racos](aanl/#aaracos) &nbsp; &nbsp;
+[(aa.)Rasin](aanl/#aarasin) &nbsp; &nbsp;
+[(aa.)Racosh](aanl/#aaracosh) &nbsp; &nbsp;
+[(aa.)Rcosh](aanl/#aarcosh) &nbsp; &nbsp;
+[(aa.)Rsinh](aanl/#aarsinh) &nbsp; &nbsp;
+[(aa.)Ratanh](aanl/#aaratanh) &nbsp; &nbsp;
+[(aa.)ADAA1](aanl/#aaadaa1) &nbsp; &nbsp;
+[(aa.)ADAA2](aanl/#aaadaa2) &nbsp; &nbsp;
+[(aa.)hardclip](aanl/#aahardclip) &nbsp; &nbsp;
+[(aa.)hardclip2](aanl/#aahardclip2) &nbsp; &nbsp;
+[(aa.)cubic1](aanl/#aacubic1) &nbsp; &nbsp;
+[(aa.)parabolic](aanl/#aaparabolic) &nbsp; &nbsp;
+[(aa.)parabolic2](aanl/#aaparabolic2) &nbsp; &nbsp;
+[(aa.)hyperbolic](aanl/#aahyperbolic) &nbsp; &nbsp;
+[(aa.)hyperbolic2](aanl/#aahyperbolic2) &nbsp; &nbsp;
+[(aa.)sinarctan](aanl/#aasinarctan) &nbsp; &nbsp;
+[(aa.)sinarctan2](aanl/#aasinarctan2) &nbsp; &nbsp;
+[(aa.)tanh1](aanl/#aatanh1) &nbsp; &nbsp;
+[(aa.)arctan](aanl/#aaarctan) &nbsp; &nbsp;
+[(aa.)arctan2](aanl/#aaarctan2) &nbsp; &nbsp;
+[(aa.)asinh1](aanl/#aaasinh1) &nbsp; &nbsp;
+[(aa.)asinh2](aanl/#aaasinh2) &nbsp; &nbsp;
+[(aa.)cosine1](aanl/#aacosine1) &nbsp; &nbsp;
+[(aa.)cosine2](aanl/#aacosine2) &nbsp; &nbsp;
+[(aa.)arccos](aanl/#aaarccos) &nbsp; &nbsp;
+[(aa.)arccos2](aanl/#aaarccos2) &nbsp; &nbsp;
+[(aa.)acosh1](aanl/#aaacosh1) &nbsp; &nbsp;
+[(aa.)acosh2](aanl/#aaacosh2) &nbsp; &nbsp;
+[(aa.)sine](aanl/#aasine) &nbsp; &nbsp;
+[(aa.)sine2](aanl/#aasine2) &nbsp; &nbsp;
+[(aa.)arcsin](aanl/#aaarcsin) &nbsp; &nbsp;
+[(aa.)arcsin2](aanl/#aaarcsin2) &nbsp; &nbsp;
+[(aa.)tangent](aanl/#aatangent) &nbsp; &nbsp;
+[(aa.)atanh1](aanl/#aaatanh1) &nbsp; &nbsp;
+[(aa.)atanh2](aanl/#aaatanh2) &nbsp; &nbsp;
+
+## analyzers
+
+[(an.)abs_envelope_rect](analyzers/#anabs_envelope_rect) &nbsp; &nbsp;
+[(an.)abs_envelope_tau](analyzers/#anabs_envelope_tau) &nbsp; &nbsp;
+[(an.)abs_envelope_t60](analyzers/#anabs_envelope_t60) &nbsp; &nbsp;
+[(an.)abs_envelope_t19](analyzers/#anabs_envelope_t19) &nbsp; &nbsp;
+[(an.)amp_follower](analyzers/#anamp_follower) &nbsp; &nbsp;
+[(an.)amp_follower_ud](analyzers/#anamp_follower_ud) &nbsp; &nbsp;
+[(an.)amp_follower_ar](analyzers/#anamp_follower_ar) &nbsp; &nbsp;
+[(an.)ms_envelope_rect](analyzers/#anms_envelope_rect) &nbsp; &nbsp;
+[(an.)ms_envelope_tau](analyzers/#anms_envelope_tau) &nbsp; &nbsp;
+[(an.)ms_envelope_t60](analyzers/#anms_envelope_t60) &nbsp; &nbsp;
+[(an.)ms_envelope_t19](analyzers/#anms_envelope_t19) &nbsp; &nbsp;
+[(an.)rms_envelope_rect](analyzers/#anrms_envelope_rect) &nbsp; &nbsp;
+[(an.)rms_envelope_tau](analyzers/#anrms_envelope_tau) &nbsp; &nbsp;
+[(an.)rms_envelope_t60](analyzers/#anrms_envelope_t60) &nbsp; &nbsp;
+[(an.)rms_envelope_t19](analyzers/#anrms_envelope_t19) &nbsp; &nbsp;
+[(an.)zcr](analyzers/#anzcr) &nbsp; &nbsp;
+[(an.)pitchTracker](analyzers/#anpitchtracker) &nbsp; &nbsp;
+[(an.)spectralCentroid](analyzers/#anspectralcentroid) &nbsp; &nbsp;
+[(an.)mth_octave_analyzer](analyzers/#anmth_octave_analyzer) &nbsp; &nbsp;
+[(an.)mth_octave_spectral_level6e](analyzers/#anmth_octave_spectral_level6e) &nbsp; &nbsp;
+[(an.)[third|half]_octave_[analyzer|filterbank]](analyzers/#anthirdhalf_octave_analyzerfilterbank) &nbsp; &nbsp;
+[(an.)analyzer](analyzers/#ananalyzer) &nbsp; &nbsp;
+[(an.)goertzelOpt ](analyzers/#angoertzelopt-) &nbsp; &nbsp;
+[(an.)goertzelComp ](analyzers/#angoertzelcomp-) &nbsp; &nbsp;
+[(an.)goertzel ](analyzers/#angoertzel-) &nbsp; &nbsp;
+[(an.)fft ](analyzers/#anfft-) &nbsp; &nbsp;
+[(an.)ifft](analyzers/#anifft) &nbsp; &nbsp;
+
+## basics
+
+[(ba.)samp2sec](basics/#basamp2sec) &nbsp; &nbsp;
+[(ba.)sec2samp](basics/#basec2samp) &nbsp; &nbsp;
+[(ba.)db2linear](basics/#badb2linear) &nbsp; &nbsp;
+[(ba.)linear2db](basics/#balinear2db) &nbsp; &nbsp;
+[(ba.)lin2LogGain](basics/#balin2loggain) &nbsp; &nbsp;
+[(ba.)log2LinGain](basics/#balog2lingain) &nbsp; &nbsp;
+[(ba.)tau2pole](basics/#batau2pole) &nbsp; &nbsp;
+[(ba.)pole2tau](basics/#bapole2tau) &nbsp; &nbsp;
+[(ba.)midikey2hz](basics/#bamidikey2hz) &nbsp; &nbsp;
+[(ba.)hz2midikey](basics/#bahz2midikey) &nbsp; &nbsp;
+[(ba.)semi2ratio](basics/#basemi2ratio) &nbsp; &nbsp;
+[(ba.)ratio2semi](basics/#baratio2semi) &nbsp; &nbsp;
+[(ba.)cent2ratio](basics/#bacent2ratio) &nbsp; &nbsp;
+[(ba.)ratio2cent](basics/#baratio2cent) &nbsp; &nbsp;
+[(ba.)pianokey2hz](basics/#bapianokey2hz) &nbsp; &nbsp;
+[(ba.)hz2pianokey](basics/#bahz2pianokey) &nbsp; &nbsp;
+[(ba.)counter](basics/#bacounter) &nbsp; &nbsp;
+[(ba.)countdown](basics/#bacountdown) &nbsp; &nbsp;
+[(ba.)countup](basics/#bacountup) &nbsp; &nbsp;
+[(ba.)sweep](basics/#basweep) &nbsp; &nbsp;
+[(ba.)time](basics/#batime) &nbsp; &nbsp;
+[(ba.)ramp](basics/#baramp) &nbsp; &nbsp;
+[(ba.)line](basics/#baline) &nbsp; &nbsp;
+[(ba.)tempo](basics/#batempo) &nbsp; &nbsp;
+[(ba.)period](basics/#baperiod) &nbsp; &nbsp;
+[(ba.)spulse](basics/#baspulse) &nbsp; &nbsp;
+[(ba.)pulse](basics/#bapulse) &nbsp; &nbsp;
+[(ba.)pulsen](basics/#bapulsen) &nbsp; &nbsp;
+[(ba.)cycle](basics/#bacycle) &nbsp; &nbsp;
+[(ba.)beat](basics/#babeat) &nbsp; &nbsp;
+[(ba.)pulse_countup](basics/#bapulse_countup) &nbsp; &nbsp;
+[(ba.)pulse_countdown](basics/#bapulse_countdown) &nbsp; &nbsp;
+[(ba.)pulse_countup_loop](basics/#bapulse_countup_loop) &nbsp; &nbsp;
+[(ba.)pulse_countdown_loop](basics/#bapulse_countdown_loop) &nbsp; &nbsp;
+[(ba.)resetCtr](basics/#baresetctr) &nbsp; &nbsp;
+[(ba.)count](basics/#bacount) &nbsp; &nbsp;
+[(ba.)take](basics/#batake) &nbsp; &nbsp;
+[(ba.)subseq](basics/#basubseq) &nbsp; &nbsp;
+[(ba.)tabulate](basics/#batabulate) &nbsp; &nbsp;
+[(ba.)tabulate_chebychev](basics/#batabulate_chebychev) &nbsp; &nbsp;
+[(ba.)tabulateNd](basics/#batabulatend) &nbsp; &nbsp;
+[(ba.)if](basics/#baif) &nbsp; &nbsp;
+[(ba.)ifNc](basics/#baifnc) &nbsp; &nbsp;
+[(ba.)ifNcNo](basics/#baifncno) &nbsp; &nbsp;
+[(ba.)selector](basics/#baselector) &nbsp; &nbsp;
+[(ba.)select2stereo](basics/#baselect2stereo) &nbsp; &nbsp;
+[(ba.)selectn](basics/#baselectn) &nbsp; &nbsp;
+[(ba.)selectbus](basics/#baselectbus) &nbsp; &nbsp;
+[(ba.)selectxbus](basics/#baselectxbus) &nbsp; &nbsp;
+[(ba.)selectmulti](basics/#baselectmulti) &nbsp; &nbsp;
+[(ba.)selectoutn](basics/#baselectoutn) &nbsp; &nbsp;
+[(ba.)latch](basics/#balatch) &nbsp; &nbsp;
+[(ba.)sAndH](basics/#basandh) &nbsp; &nbsp;
+[(ba.)downSample](basics/#badownsample) &nbsp; &nbsp;
+[(ba.)downSampleCV](basics/#badownsamplecv) &nbsp; &nbsp;
+[(ba.)peakhold](basics/#bapeakhold) &nbsp; &nbsp;
+[(ba.)peakholder](basics/#bapeakholder) &nbsp; &nbsp;
+[(ba.)kr2ar](basics/#bakr2ar) &nbsp; &nbsp;
+[(ba.)impulsify](basics/#baimpulsify) &nbsp; &nbsp;
+[(ba.)automat](basics/#baautomat) &nbsp; &nbsp;
+[(ba.)bpf](basics/#babpf) &nbsp; &nbsp;
+[(ba.)listInterp](basics/#balistinterp) &nbsp; &nbsp;
+[(ba.)bypass1](basics/#babypass1) &nbsp; &nbsp;
+[(ba.)bypass2](basics/#babypass2) &nbsp; &nbsp;
+[(ba.)bypass1to2](basics/#babypass1to2) &nbsp; &nbsp;
+[(ba.)bypass_fade](basics/#babypass_fade) &nbsp; &nbsp;
+[(ba.)toggle](basics/#batoggle) &nbsp; &nbsp;
+[(ba.)on_and_off](basics/#baon_and_off) &nbsp; &nbsp;
+[(ba.)bitcrusher](basics/#babitcrusher) &nbsp; &nbsp;
+[(ba.)slidingReduce](basics/#baslidingreduce) &nbsp; &nbsp;
+[(ba.)slidingSum](basics/#baslidingsum) &nbsp; &nbsp;
+[(ba.)slidingSump](basics/#baslidingsump) &nbsp; &nbsp;
+[(ba.)slidingMax](basics/#baslidingmax) &nbsp; &nbsp;
+[(ba.)slidingMin](basics/#baslidingmin) &nbsp; &nbsp;
+[(ba.)slidingMean](basics/#baslidingmean) &nbsp; &nbsp;
+[(ba.)slidingMeanp](basics/#baslidingmeanp) &nbsp; &nbsp;
+[(ba.)slidingRMS](basics/#baslidingrms) &nbsp; &nbsp;
+[(ba.)slidingRMSp](basics/#baslidingrmsp) &nbsp; &nbsp;
+[(ba.)parallelOp](basics/#baparallelop) &nbsp; &nbsp;
+[(ba.)parallelMax](basics/#baparallelmax) &nbsp; &nbsp;
+[(ba.)parallelMin](basics/#baparallelmin) &nbsp; &nbsp;
+[(ba.)parallelMean](basics/#baparallelmean) &nbsp; &nbsp;
+[(ba.)parallelRMS](basics/#baparallelrms) &nbsp; &nbsp;
+
+## compressors
+
+[(co.)ratio2strength ](compressors/#coratio2strength-) &nbsp; &nbsp;
+[(co.)strength2ratio ](compressors/#costrength2ratio-) &nbsp; &nbsp;
+[(co.)peak_compression_gain_mono_db](compressors/#copeak_compression_gain_mono_db) &nbsp; &nbsp;
+[(co.)peak_compression_gain_N_chan_db](compressors/#copeak_compression_gain_n_chan_db) &nbsp; &nbsp;
+[(co.)FFcompressor_N_chan](compressors/#coffcompressor_n_chan) &nbsp; &nbsp;
+[(co.)FBcompressor_N_chan](compressors/#cofbcompressor_n_chan) &nbsp; &nbsp;
+[(co.)FBFFcompressor_N_chan](compressors/#cofbffcompressor_n_chan) &nbsp; &nbsp;
+[(co.)RMS_compression_gain_mono_db](compressors/#corms_compression_gain_mono_db) &nbsp; &nbsp;
+[(co.)RMS_compression_gain_N_chan_db](compressors/#corms_compression_gain_n_chan_db) &nbsp; &nbsp;
+[(co.)RMS_FBFFcompressor_N_chan](compressors/#corms_fbffcompressor_n_chan) &nbsp; &nbsp;
+[(co.)RMS_FBcompressor_peak_limiter_N_chan](compressors/#corms_fbcompressor_peak_limiter_n_chan) &nbsp; &nbsp;
+[(co.)peak_compression_gain_mono](compressors/#copeak_compression_gain_mono) &nbsp; &nbsp;
+[(co.)peak_compression_gain_N_chan](compressors/#copeak_compression_gain_n_chan) &nbsp; &nbsp;
+[(co.)RMS_compression_gain_mono](compressors/#corms_compression_gain_mono) &nbsp; &nbsp;
+[(co.)RMS_compression_gain_N_chan](compressors/#corms_compression_gain_n_chan) &nbsp; &nbsp;
+[(co.)compressor_lad_mono](compressors/#cocompressor_lad_mono) &nbsp; &nbsp;
+[(co.)compressor_mono](compressors/#cocompressor_mono) &nbsp; &nbsp;
+[(co.)compressor_stereo](compressors/#cocompressor_stereo) &nbsp; &nbsp;
+[(co.)compression_gain_mono](compressors/#cocompression_gain_mono) &nbsp; &nbsp;
+[(co.)limiter_1176_R4_mono](compressors/#colimiter_1176_r4_mono) &nbsp; &nbsp;
+[(co.)limiter_1176_R4_stereo](compressors/#colimiter_1176_r4_stereo) &nbsp; &nbsp;
+[(co.)peak_expansion_gain_N_chan_db](compressors/#copeak_expansion_gain_n_chan_db) &nbsp; &nbsp;
+[(co.)expander_N_chan](compressors/#coexpander_n_chan) &nbsp; &nbsp;
+[(co.)expanderSC_N_chan](compressors/#coexpandersc_n_chan) &nbsp; &nbsp;
+[(co.)limiter_lad_N](compressors/#colimiter_lad_n) &nbsp; &nbsp;
+[(co.)limiter_lad_mono](compressors/#colimiter_lad_mono) &nbsp; &nbsp;
+[(co.)limiter_lad_stereo](compressors/#colimiter_lad_stereo) &nbsp; &nbsp;
+[(co.)limiter_lad_quad](compressors/#colimiter_lad_quad) &nbsp; &nbsp;
+[(co.)limiter_lad_bw](compressors/#colimiter_lad_bw) &nbsp; &nbsp;
+
+## delays
+
+[(de.)delay](delays/#dedelay) &nbsp; &nbsp;
+[(de.)fdelay](delays/#defdelay) &nbsp; &nbsp;
+[(de.)sdelay](delays/#desdelay) &nbsp; &nbsp;
+[(de.)prime_power_delays](delays/#deprime_power_delays) &nbsp; &nbsp;
+[(de.)fdelaylti and (de.)fdelayltv](delays/#defdelaylti-and-defdelayltv) &nbsp; &nbsp;
+[(de.)fdelay[N]](delays/#defdelayn) &nbsp; &nbsp;
+[(de.)fdelay[N]a](delays/#defdelayna) &nbsp; &nbsp;
+
+## demos
+
+[(dm.)mth_octave_spectral_level_demo](demos/#dmmth_octave_spectral_level_demo) &nbsp; &nbsp;
+[(dm.)parametric_eq_demo](demos/#dmparametric_eq_demo) &nbsp; &nbsp;
+[(dm.)spectral_tilt_demo](demos/#dmspectral_tilt_demo) &nbsp; &nbsp;
+[(dm.)mth_octave_filterbank_demo and (dm.)filterbank_demo](demos/#dmmth_octave_filterbank_demo-and-dmfilterbank_demo) &nbsp; &nbsp;
+[(dm.)cubicnl_demo](demos/#dmcubicnl_demo) &nbsp; &nbsp;
+[(dm.)gate_demo](demos/#dmgate_demo) &nbsp; &nbsp;
+[(dm.)compressor_demo](demos/#dmcompressor_demo) &nbsp; &nbsp;
+[(dm.)moog_vcf_demo](demos/#dmmoog_vcf_demo) &nbsp; &nbsp;
+[(dm.)wah4_demo](demos/#dmwah4_demo) &nbsp; &nbsp;
+[(dm.)crybaby_demo](demos/#dmcrybaby_demo) &nbsp; &nbsp;
+[(dm.)flanger_demo](demos/#dmflanger_demo) &nbsp; &nbsp;
+[(dm.)phaser2_demo](demos/#dmphaser2_demo) &nbsp; &nbsp;
+[(dm.)tapeStop_demo](demos/#dmtapestop_demo) &nbsp; &nbsp;
+[(dm.)freeverb_demo](demos/#dmfreeverb_demo) &nbsp; &nbsp;
+[(dm.)stereo_reverb_tester](demos/#dmstereo_reverb_tester) &nbsp; &nbsp;
+[(dm.)fdnrev0_demo](demos/#dmfdnrev0_demo) &nbsp; &nbsp;
+[(dm.)zita_rev_fdn_demo](demos/#dmzita_rev_fdn_demo) &nbsp; &nbsp;
+[(dm.)zita_light](demos/#dmzita_light) &nbsp; &nbsp;
+[(dm.)zita_rev1](demos/#dmzita_rev1) &nbsp; &nbsp;
+[(dm.)vital_rev_demo](demos/#dmvital_rev_demo) &nbsp; &nbsp;
+[(dm.)reverbTank_demo](demos/#dmreverbtank_demo) &nbsp; &nbsp;
+[(dm.)dattorro_rev_demo](demos/#dmdattorro_rev_demo) &nbsp; &nbsp;
+[(dm.)jprev_demo](demos/#dmjprev_demo) &nbsp; &nbsp;
+[(dm.)greyhole_demo](demos/#dmgreyhole_demo) &nbsp; &nbsp;
+[(dm.)sawtooth_demo](demos/#dmsawtooth_demo) &nbsp; &nbsp;
+[(dm.)virtual_analog_oscillator_demo](demos/#dmvirtual_analog_oscillator_demo) &nbsp; &nbsp;
+[(dm.)oscrs_demo ](demos/#dmoscrs_demo-) &nbsp; &nbsp;
+[(dm.)velvet_noise_demo](demos/#dmvelvet_noise_demo) &nbsp; &nbsp;
+[(dm.)latch_demo](demos/#dmlatch_demo) &nbsp; &nbsp;
+[(dm.)envelopes_demo](demos/#dmenvelopes_demo) &nbsp; &nbsp;
+[(dm.)fft_spectral_level_demo](demos/#dmfft_spectral_level_demo) &nbsp; &nbsp;
+[(dm.)reverse_echo_demo(nChans)](demos/#dmreverse_echo_demonchans) &nbsp; &nbsp;
+[(dm.)pospass_demo](demos/#dmpospass_demo) &nbsp; &nbsp;
+[(dm.)exciter](demos/#dmexciter) &nbsp; &nbsp;
+[(dm.)vocoder_demo](demos/#dmvocoder_demo) &nbsp; &nbsp;
+[(dm.)colored_noise_demo](demos/#dmcolored_noise_demo) &nbsp; &nbsp;
+
+## dx7
+
+[(dx.)dx7_ampf](dx7/#dxdx7_ampf) &nbsp; &nbsp;
+[(dx.)dx7_egraterisef](dx7/#dxdx7_egraterisef) &nbsp; &nbsp;
+[(dx.)dx7_egraterisepercf](dx7/#dxdx7_egraterisepercf) &nbsp; &nbsp;
+[(dx.)dx7_egratedecayf](dx7/#dxdx7_egratedecayf) &nbsp; &nbsp;
+[(dx.)dx7_egratedecaypercf](dx7/#dxdx7_egratedecaypercf) &nbsp; &nbsp;
+[(dx.)dx7_eglv2peakf](dx7/#dxdx7_eglv2peakf) &nbsp; &nbsp;
+[(dx.)dx7_velsensf](dx7/#dxdx7_velsensf) &nbsp; &nbsp;
+[(dx.)dx7_fdbkscalef](dx7/#dxdx7_fdbkscalef) &nbsp; &nbsp;
+[(dx.)dx7_op](dx7/#dxdx7_op) &nbsp; &nbsp;
+[(dx.)dx7_algo](dx7/#dxdx7_algo) &nbsp; &nbsp;
+[(dx.)dx7_ui](dx7/#dxdx7_ui) &nbsp; &nbsp;
+
+## envelopes
+
+[(en.)ar](envelopes/#enar) &nbsp; &nbsp;
+[(en.)asr](envelopes/#enasr) &nbsp; &nbsp;
+[(en.)adsr](envelopes/#enadsr) &nbsp; &nbsp;
+[(en.)adsrf_bias](envelopes/#enadsrf_bias) &nbsp; &nbsp;
+[(en.)adsr_bias](envelopes/#enadsr_bias) &nbsp; &nbsp;
+[(en.)ahdsrf_bias](envelopes/#enahdsrf_bias) &nbsp; &nbsp;
+[(en.)ahdsr_bias](envelopes/#enahdsr_bias) &nbsp; &nbsp;
+[(en.)smoothEnvelope](envelopes/#ensmoothenvelope) &nbsp; &nbsp;
+[(en.)arfe](envelopes/#enarfe) &nbsp; &nbsp;
+[(en.)are](envelopes/#enare) &nbsp; &nbsp;
+[(en.)asre](envelopes/#enasre) &nbsp; &nbsp;
+[(en.)adsre](envelopes/#enadsre) &nbsp; &nbsp;
+[(en.)ahdsre](envelopes/#enahdsre) &nbsp; &nbsp;
+[(en.)dx7envelope](envelopes/#endx7envelope) &nbsp; &nbsp;
+
+## fds
+
+[(fd.)model1D](fds/#fdmodel1d) &nbsp; &nbsp;
+[(fd.)model2D](fds/#fdmodel2d) &nbsp; &nbsp;
+[(fd.)stairsInterp1D](fds/#fdstairsinterp1d) &nbsp; &nbsp;
+[(fd.)stairsInterp2D](fds/#fdstairsinterp2d) &nbsp; &nbsp;
+[(fd.)linInterp1D](fds/#fdlininterp1d) &nbsp; &nbsp;
+[(fd.)linInterp2D](fds/#fdlininterp2d) &nbsp; &nbsp;
+[(fd.)stairsInterp1DOut](fds/#fdstairsinterp1dout) &nbsp; &nbsp;
+[(fd.)stairsInterp2DOut](fds/#fdstairsinterp2dout) &nbsp; &nbsp;
+[(fd.)linInterp1DOut](fds/#fdlininterp1dout) &nbsp; &nbsp;
+[(fd.)stairsInterp2DOut](fds/#fdstairsinterp2dout) &nbsp; &nbsp;
+[(fd.)route1D](fds/#fdroute1d) &nbsp; &nbsp;
+[(fd.)route2D](fds/#fdroute2d) &nbsp; &nbsp;
+[(fd.)schemePoint](fds/#fdschemepoint) &nbsp; &nbsp;
+[(fd.)buildScheme1D](fds/#fdbuildscheme1d) &nbsp; &nbsp;
+[(fd.)buildScheme2D](fds/#fdbuildscheme2d) &nbsp; &nbsp;
+[(fd.)hammer](fds/#fdhammer) &nbsp; &nbsp;
+[(fd.)bow](fds/#fdbow) &nbsp; &nbsp;
+
+## filters
+
+[(fi.)zero](filters/#fizero) &nbsp; &nbsp;
+[(fi.)pole](filters/#fipole) &nbsp; &nbsp;
+[(fi.)integrator](filters/#fiintegrator) &nbsp; &nbsp;
+[(fi.)dcblockerat](filters/#fidcblockerat) &nbsp; &nbsp;
+[(fi.)dcblocker](filters/#fidcblocker) &nbsp; &nbsp;
+[(fi.)lptN](filters/#filptn) &nbsp; &nbsp;
+[(fi.)ff_comb](filters/#fiff_comb) &nbsp; &nbsp;
+[(fi.)ff_fcomb](filters/#fiff_fcomb) &nbsp; &nbsp;
+[(fi.)ffcombfilter](filters/#fiffcombfilter) &nbsp; &nbsp;
+[(fi.)fb_comb](filters/#fifb_comb) &nbsp; &nbsp;
+[(fi.)fb_fcomb](filters/#fifb_fcomb) &nbsp; &nbsp;
+[(fi.)rev1](filters/#firev1) &nbsp; &nbsp;
+[(fi.)fbcombfilter and (fi.)ffbcombfilter](filters/#fifbcombfilter-and-fiffbcombfilter) &nbsp; &nbsp;
+[(fi.)allpass_comb](filters/#fiallpass_comb) &nbsp; &nbsp;
+[(fi.)allpass_fcomb](filters/#fiallpass_fcomb) &nbsp; &nbsp;
+[(fi.)rev2](filters/#firev2) &nbsp; &nbsp;
+[(fi.)allpass_fcomb5 and (fi.)allpass_fcomb1a](filters/#fiallpass_fcomb5-and-fiallpass_fcomb1a) &nbsp; &nbsp;
+[(fi.)iir](filters/#fiiir) &nbsp; &nbsp;
+[(fi.)fir](filters/#fifir) &nbsp; &nbsp;
+[(fi.)conv and (fi.)convN](filters/#ficonv-and-ficonvn) &nbsp; &nbsp;
+[(fi.)tf1, (fi.)tf2 and (fi.)tf3](filters/#fitf1,-fitf2-and-fitf3) &nbsp; &nbsp;
+[(fi.)notchw](filters/#finotchw) &nbsp; &nbsp;
+[(fi.)tf21, (fi.)tf22, (fi.)tf22t and (fi.)tf21t](filters/#fitf21,-fitf22,-fitf22t-and-fitf21t) &nbsp; &nbsp;
+[(fi.)av2sv](filters/#fiav2sv) &nbsp; &nbsp;
+[(fi.)bvav2nuv](filters/#fibvav2nuv) &nbsp; &nbsp;
+[(fi.)iir_lat2](filters/#fiiir_lat2) &nbsp; &nbsp;
+[(fi.)allpassnt](filters/#fiallpassnt) &nbsp; &nbsp;
+[(fi.)iir_kl](filters/#fiiir_kl) &nbsp; &nbsp;
+[(fi.)allpassnklt](filters/#fiallpassnklt) &nbsp; &nbsp;
+[(fi.)iir_lat1](filters/#fiiir_lat1) &nbsp; &nbsp;
+[(fi.)allpassn1mt](filters/#fiallpassn1mt) &nbsp; &nbsp;
+[(fi.)iir_nl](filters/#fiiir_nl) &nbsp; &nbsp;
+[(fi.)allpassnnlt](filters/#fiallpassnnlt) &nbsp; &nbsp;
+[(fi.)tf2np](filters/#fitf2np) &nbsp; &nbsp;
+[(fi.)wgr](filters/#fiwgr) &nbsp; &nbsp;
+[(fi.)nlf2](filters/#finlf2) &nbsp; &nbsp;
+[(fi.)apnl](filters/#fiapnl) &nbsp; &nbsp;
+[(fi.)scatN](filters/#fiscatn) &nbsp; &nbsp;
+[(fi.)scat](filters/#fiscat) &nbsp; &nbsp;
+[(fi.)allpassn](filters/#fiallpassn) &nbsp; &nbsp;
+[(fi.)allpassnn](filters/#fiallpassnn) &nbsp; &nbsp;
+[(fi.)allpassnkl](filters/#fiallpassnkl) &nbsp; &nbsp;
+[(fi.)allpass1m](filters/#fiallpass1m) &nbsp; &nbsp;
+[(fi.)tf2s and (fi.)tf2snp](filters/#fitf2s-and-fitf2snp) &nbsp; &nbsp;
+[(fi.)tf1snp](filters/#fitf1snp) &nbsp; &nbsp;
+[(fi.)tf3slf](filters/#fitf3slf) &nbsp; &nbsp;
+[(fi.)tf1s](filters/#fitf1s) &nbsp; &nbsp;
+[(fi.)tf2sb](filters/#fitf2sb) &nbsp; &nbsp;
+[(fi.)tf1sb](filters/#fitf1sb) &nbsp; &nbsp;
+[(fi.)resonlp](filters/#firesonlp) &nbsp; &nbsp;
+[(fi.)resonhp](filters/#firesonhp) &nbsp; &nbsp;
+[(fi.)resonbp](filters/#firesonbp) &nbsp; &nbsp;
+[(fi.)lowpass](filters/#filowpass) &nbsp; &nbsp;
+[(fi.)highpass](filters/#fihighpass) &nbsp; &nbsp;
+[(fi.)lowpass0_highpass1](filters/#filowpass0_highpass1) &nbsp; &nbsp;
+[(fi.)lowpass_plus|minus_highpass](filters/#filowpass_plusminus_highpass) &nbsp; &nbsp;
+[(fi.)lowpass3e](filters/#filowpass3e) &nbsp; &nbsp;
+[(fi.)lowpass6e](filters/#filowpass6e) &nbsp; &nbsp;
+[(fi.)highpass3e](filters/#fihighpass3e) &nbsp; &nbsp;
+[(fi.)highpass6e](filters/#fihighpass6e) &nbsp; &nbsp;
+[(fi.)bandpass](filters/#fibandpass) &nbsp; &nbsp;
+[(fi.)bandstop](filters/#fibandstop) &nbsp; &nbsp;
+[(fi.)bandpass6e](filters/#fibandpass6e) &nbsp; &nbsp;
+[(fi.)bandpass12e](filters/#fibandpass12e) &nbsp; &nbsp;
+[(fi.)pospass](filters/#fipospass) &nbsp; &nbsp;
+[(fi.)low_shelf](filters/#filow_shelf) &nbsp; &nbsp;
+[(fi.)high_shelf](filters/#fihigh_shelf) &nbsp; &nbsp;
+[(fi.)peak_eq](filters/#fipeak_eq) &nbsp; &nbsp;
+[(fi.)peak_eq_cq](filters/#fipeak_eq_cq) &nbsp; &nbsp;
+[(fi.)peak_eq_rm](filters/#fipeak_eq_rm) &nbsp; &nbsp;
+[(fi.)spectral_tilt](filters/#fispectral_tilt) &nbsp; &nbsp;
+[(fi.)levelfilter](filters/#filevelfilter) &nbsp; &nbsp;
+[(fi.)levelfilterN](filters/#filevelfiltern) &nbsp; &nbsp;
+[(fi.)mth_octave_filterbank[n]](filters/#fimth_octave_filterbankn) &nbsp; &nbsp;
+[(fi.)filterbank](filters/#fifilterbank) &nbsp; &nbsp;
+[(fi.)filterbanki](filters/#fifilterbanki) &nbsp; &nbsp;
+[(fi.)svf](filters/#fisvf) &nbsp; &nbsp;
+[(fi.)lowpassLR4](filters/#filowpasslr4) &nbsp; &nbsp;
+[(fi.)highpassLR4](filters/#fihighpasslr4) &nbsp; &nbsp;
+[(fi.)crossover2LR4](filters/#ficrossover2lr4) &nbsp; &nbsp;
+[(fi.)crossover3LR4](filters/#ficrossover3lr4) &nbsp; &nbsp;
+[(fi.)crossover4LR4](filters/#ficrossover4lr4) &nbsp; &nbsp;
+[(fi.)crossover8LR4](filters/#ficrossover8lr4) &nbsp; &nbsp;
+[(fi.)itu_r_bs_1770_4_kfilter](filters/#fiitu_r_bs_1770_4_kfilter) &nbsp; &nbsp;
+[(fi.)avg_rect](filters/#fiavg_rect) &nbsp; &nbsp;
+[(fi.)avg_tau](filters/#fiavg_tau) &nbsp; &nbsp;
+[(fi.)avg_t60](filters/#fiavg_t60) &nbsp; &nbsp;
+[(fi.)avg_t19](filters/#fiavg_t19) &nbsp; &nbsp;
+
+## hoa
+
+[(ho.)encoder](hoa/#hoencoder) &nbsp; &nbsp;
+[(ho.)rEncoder](hoa/#horencoder) &nbsp; &nbsp;
+[(ho.)stereoEncoder](hoa/#hostereoencoder) &nbsp; &nbsp;
+[(ho.)multiEncoder](hoa/#homultiencoder) &nbsp; &nbsp;
+[(ho.)decoder](hoa/#hodecoder) &nbsp; &nbsp;
+[(ho.)decoderStereo](hoa/#hodecoderstereo) &nbsp; &nbsp;
+[(ho.)iBasicDecoder](hoa/#hoibasicdecoder) &nbsp; &nbsp;
+[(ho.)circularScaledVBAP](hoa/#hocircularscaledvbap) &nbsp; &nbsp;
+[(ho.)imlsDecoder](hoa/#hoimlsdecoder) &nbsp; &nbsp;
+[(ho.)iDecoder](hoa/#hoidecoder) &nbsp; &nbsp;
+[(ho.)optimBasic](hoa/#hooptimbasic) &nbsp; &nbsp;
+[(ho.)optimMaxRe](hoa/#hooptimmaxre) &nbsp; &nbsp;
+[(ho.)optimInPhase](hoa/#hooptiminphase) &nbsp; &nbsp;
+[(ho.)optim](hoa/#hooptim) &nbsp; &nbsp;
+[(ho.)wider](hoa/#howider) &nbsp; &nbsp;
+[(ho.)mirror](hoa/#homirror) &nbsp; &nbsp;
+[(ho.)map](hoa/#homap) &nbsp; &nbsp;
+[(ho.)rotate](hoa/#horotate) &nbsp; &nbsp;
+[(ho.)scope](hoa/#hoscope) &nbsp; &nbsp;
+[(ho.).fxDecorrelation](hoa/#hofxdecorrelation) &nbsp; &nbsp;
+[(ho.).synDecorrelation](hoa/#hosyndecorrelation) &nbsp; &nbsp;
+[(ho.).fxRingMod](hoa/#hofxringmod) &nbsp; &nbsp;
+[(ho.).synRingMod](hoa/#hosynringmod) &nbsp; &nbsp;
+[(ho.)encoder3D](hoa/#hoencoder3d) &nbsp; &nbsp;
+[(ho.)rEncoder3D](hoa/#horencoder3d) &nbsp; &nbsp;
+[(ho.)optimBasic3D](hoa/#hooptimbasic3d) &nbsp; &nbsp;
+[(ho.)optimMaxRe3D](hoa/#hooptimmaxre3d) &nbsp; &nbsp;
+[(ho.)optimInPhase3D](hoa/#hooptiminphase3d) &nbsp; &nbsp;
+[(ho.)optim3D](hoa/#hooptim3d) &nbsp; &nbsp;
+
+## interpolators
+
+[(it.)interpolate_linear](interpolators/#itinterpolate_linear) &nbsp; &nbsp;
+[(it.)interpolate_cosine](interpolators/#itinterpolate_cosine) &nbsp; &nbsp;
+[(it.)interpolate_cubic](interpolators/#itinterpolate_cubic) &nbsp; &nbsp;
+[(it.)interpolator_two_points](interpolators/#itinterpolator_two_points) &nbsp; &nbsp;
+[(it.)interpolator_linear](interpolators/#itinterpolator_linear) &nbsp; &nbsp;
+[(it.)interpolator_cosine](interpolators/#itinterpolator_cosine) &nbsp; &nbsp;
+[(it.)interpolator_four_points](interpolators/#itinterpolator_four_points) &nbsp; &nbsp;
+[(it.)interpolator_cubic](interpolators/#itinterpolator_cubic) &nbsp; &nbsp;
+[(it.)interpolator_select](interpolators/#itinterpolator_select) &nbsp; &nbsp;
+[(it.)lagrangeCoeffs(N, xCoordsList) ](interpolators/#itlagrangecoeffsn,-xcoordslist-) &nbsp; &nbsp;
+[(it.)lagrangeInterpolation(N, xCoordsList) ](interpolators/#itlagrangeinterpolationn,-xcoordslist-) &nbsp; &nbsp;
+[(it.)frdtable(N, S) ](interpolators/#itfrdtablen,-s-) &nbsp; &nbsp;
+[(it.)frwtable(N, S) ](interpolators/#itfrwtablen,-s-) &nbsp; &nbsp;
+[(it.)remap ](interpolators/#itremap-) &nbsp; &nbsp;
+
+## maths
+
+[(ma.)SR](maths/#masr) &nbsp; &nbsp;
+[(ma.)T](maths/#mat) &nbsp; &nbsp;
+[(ma.)BS](maths/#mabs) &nbsp; &nbsp;
+[(ma.)PI](maths/#mapi) &nbsp; &nbsp;
+[(ma.)deg2rad](maths/#madeg2rad) &nbsp; &nbsp;
+[(ma.)rad2deg](maths/#marad2deg) &nbsp; &nbsp;
+[(ma.)E](maths/#mae) &nbsp; &nbsp;
+[(ma.)EPSILON](maths/#maepsilon) &nbsp; &nbsp;
+[(ma.)MIN](maths/#mamin) &nbsp; &nbsp;
+[(ma.)MAX](maths/#mamax) &nbsp; &nbsp;
+[(ma.)FTZ](maths/#maftz) &nbsp; &nbsp;
+[(ma.)copysign](maths/#macopysign) &nbsp; &nbsp;
+[(ma.)neg](maths/#maneg) &nbsp; &nbsp;
+[(ma.)not](maths/#manot) &nbsp; &nbsp;
+[(ma.)sub(x,y)](maths/#masubx,y) &nbsp; &nbsp;
+[(ma.)inv](maths/#mainv) &nbsp; &nbsp;
+[(ma.)cbrt](maths/#macbrt) &nbsp; &nbsp;
+[(ma.)hypot](maths/#mahypot) &nbsp; &nbsp;
+[(ma.)ldexp](maths/#maldexp) &nbsp; &nbsp;
+[(ma.)scalb](maths/#mascalb) &nbsp; &nbsp;
+[(ma.)log1p](maths/#malog1p) &nbsp; &nbsp;
+[(ma.)logb](maths/#malogb) &nbsp; &nbsp;
+[(ma.)ilogb](maths/#mailogb) &nbsp; &nbsp;
+[(ma.)log2](maths/#malog2) &nbsp; &nbsp;
+[(ma.)expm1](maths/#maexpm1) &nbsp; &nbsp;
+[(ma.)acosh](maths/#maacosh) &nbsp; &nbsp;
+[(ma.)asinh](maths/#maasinh) &nbsp; &nbsp;
+[(ma.)atanh](maths/#maatanh) &nbsp; &nbsp;
+[(ma.)sinh](maths/#masinh) &nbsp; &nbsp;
+[(ma.)cosh](maths/#macosh) &nbsp; &nbsp;
+[(ma.)tanh](maths/#matanh) &nbsp; &nbsp;
+[(ma.)erf](maths/#maerf) &nbsp; &nbsp;
+[(ma.)erfc](maths/#maerfc) &nbsp; &nbsp;
+[(ma.)gamma](maths/#magamma) &nbsp; &nbsp;
+[(ma.)lgamma](maths/#malgamma) &nbsp; &nbsp;
+[(ma.)J0](maths/#maj0) &nbsp; &nbsp;
+[(ma.)J1](maths/#maj1) &nbsp; &nbsp;
+[(ma.)Jn](maths/#majn) &nbsp; &nbsp;
+[(ma.)Y0](maths/#may0) &nbsp; &nbsp;
+[(ma.)Y1](maths/#may1) &nbsp; &nbsp;
+[(ma.)Yn](maths/#mayn) &nbsp; &nbsp;
+[(ma.)fabs, (ma.)fmax, (ma.)fmin](maths/#mafabs,-mafmax,-mafmin) &nbsp; &nbsp;
+[(ma.)np2](maths/#manp2) &nbsp; &nbsp;
+[(ma.)frac](maths/#mafrac) &nbsp; &nbsp;
+[(ma.)modulo](maths/#mamodulo) &nbsp; &nbsp;
+[(ma.)isnan](maths/#maisnan) &nbsp; &nbsp;
+[(ma.)isinf](maths/#maisinf) &nbsp; &nbsp;
+[(ma.)chebychev](maths/#machebychev) &nbsp; &nbsp;
+[(ma.)chebychevpoly](maths/#machebychevpoly) &nbsp; &nbsp;
+[(ma.)diffn](maths/#madiffn) &nbsp; &nbsp;
+[(ma.)signum](maths/#masignum) &nbsp; &nbsp;
+[(ma.)nextpow2](maths/#manextpow2) &nbsp; &nbsp;
+[(ma.)zc](maths/#mazc) &nbsp; &nbsp;
+[(ma.)primes](maths/#maprimes) &nbsp; &nbsp;
+
+## mi
+
+[(mi.)initState](mi/#miinitstate) &nbsp; &nbsp;
+[(mi.)mass](mi/#mimass) &nbsp; &nbsp;
+[(mi.)oscil](mi/#mioscil) &nbsp; &nbsp;
+[(mi.)ground](mi/#miground) &nbsp; &nbsp;
+[(mi.)posInput](mi/#miposinput) &nbsp; &nbsp;
+[(mi.)spring](mi/#mispring) &nbsp; &nbsp;
+[(mi.)damper](mi/#midamper) &nbsp; &nbsp;
+[(mi.)springDamper](mi/#mispringdamper) &nbsp; &nbsp;
+[(mi.)nlSpringDamper2](mi/#minlspringdamper2) &nbsp; &nbsp;
+[(mi.)nlSpringDamper3](mi/#minlspringdamper3) &nbsp; &nbsp;
+[(mi.)nlSpringDamperClipped](mi/#minlspringdamperclipped) &nbsp; &nbsp;
+[(mi.)nlPluck](mi/#minlpluck) &nbsp; &nbsp;
+[(mi.)nlBow](mi/#minlbow) &nbsp; &nbsp;
+[(mi.)collision](mi/#micollision) &nbsp; &nbsp;
+[(mi.)nlCollisionClipped](mi/#minlcollisionclipped) &nbsp; &nbsp;
+
+## misceffects
+
+[(ef.)cubicnl](misceffects/#efcubicnl) &nbsp; &nbsp;
+[(ef.)gate_mono](misceffects/#efgate_mono) &nbsp; &nbsp;
+[(ef.)gate_stereo](misceffects/#efgate_stereo) &nbsp; &nbsp;
+[(ef.)fibonacci](misceffects/#effibonacci) &nbsp; &nbsp;
+[(ef.)fibonacciGeneral](misceffects/#effibonaccigeneral) &nbsp; &nbsp;
+[(ef.)fibonacciSeq](misceffects/#effibonacciseq) &nbsp; &nbsp;
+[(ef.)speakerbp](misceffects/#efspeakerbp) &nbsp; &nbsp;
+[(ef.)piano_dispersion_filter](misceffects/#efpiano_dispersion_filter) &nbsp; &nbsp;
+[(ef.)stereo_width](misceffects/#efstereo_width) &nbsp; &nbsp;
+[(ef.)mesh_square](misceffects/#efmesh_square) &nbsp; &nbsp;
+[(ef.)dryWetMixer](misceffects/#efdrywetmixer) &nbsp; &nbsp;
+[(ef.)dryWetMixerConstantPower](misceffects/#efdrywetmixerconstantpower) &nbsp; &nbsp;
+[(ef.)mixLinearClamp](misceffects/#efmixlinearclamp) &nbsp; &nbsp;
+[(ef.)mixLinearLoop](misceffects/#efmixlinearloop) &nbsp; &nbsp;
+[(ef.)mixPowerClamp](misceffects/#efmixpowerclamp) &nbsp; &nbsp;
+[(ef.)mixPowerLoop](misceffects/#efmixpowerloop) &nbsp; &nbsp;
+[(ef.)echo](misceffects/#efecho) &nbsp; &nbsp;
+[(ef.)reverseEchoN(nChans,delay)](misceffects/#efreverseechonnchans,delay) &nbsp; &nbsp;
+[(ef.)reverseDelayRamped(delay,phase)](misceffects/#efreversedelayrampeddelay,phase) &nbsp; &nbsp;
+[(ef.)uniformPanToStereo(nChans)](misceffects/#efuniformpantostereonchans) &nbsp; &nbsp;
+[(ef.)tapeStop](misceffects/#eftapestop) &nbsp; &nbsp;
+[(ef.)transpose](misceffects/#eftranspose) &nbsp; &nbsp;
+[(ef.)softclipQuadratic](misceffects/#efsoftclipquadratic) &nbsp; &nbsp;
+[(ef.)wavefold](misceffects/#efwavefold) &nbsp; &nbsp;
+
+## oscillators
+
+[(os.)sinwaveform](oscillators/#ossinwaveform) &nbsp; &nbsp;
+[(os.)coswaveform](oscillators/#oscoswaveform) &nbsp; &nbsp;
+[(os.)phasor](oscillators/#osphasor) &nbsp; &nbsp;
+[(os.)hs_phasor](oscillators/#oshs_phasor) &nbsp; &nbsp;
+[(os.)hsp_phasor](oscillators/#oshsp_phasor) &nbsp; &nbsp;
+[(os.)oscsin](oscillators/#ososcsin) &nbsp; &nbsp;
+[(os.)hs_oscsin](oscillators/#oshs_oscsin) &nbsp; &nbsp;
+[(os.)osccos](oscillators/#ososccos) &nbsp; &nbsp;
+[(os.)hs_osccos](oscillators/#oshs_osccos) &nbsp; &nbsp;
+[(os.)oscp](oscillators/#ososcp) &nbsp; &nbsp;
+[(os.)osci](oscillators/#ososci) &nbsp; &nbsp;
+[(os.)osc](oscillators/#ososc) &nbsp; &nbsp;
+[(os.)m_oscsin](oscillators/#osm_oscsin) &nbsp; &nbsp;
+[(os.)m_osccos](oscillators/#osm_osccos) &nbsp; &nbsp;
+[(os.)lf_imptrain](oscillators/#oslf_imptrain) &nbsp; &nbsp;
+[(os.)lf_pulsetrainpos](oscillators/#oslf_pulsetrainpos) &nbsp; &nbsp;
+[(os.)lf_pulsetrain](oscillators/#oslf_pulsetrain) &nbsp; &nbsp;
+[(os.)lf_squarewavepos](oscillators/#oslf_squarewavepos) &nbsp; &nbsp;
+[(os.)lf_squarewave](oscillators/#oslf_squarewave) &nbsp; &nbsp;
+[(os.)lf_trianglepos](oscillators/#oslf_trianglepos) &nbsp; &nbsp;
+[(os.)lf_triangle](oscillators/#oslf_triangle) &nbsp; &nbsp;
+[(os.)lf_rawsaw](oscillators/#oslf_rawsaw) &nbsp; &nbsp;
+[(os.)lf_sawpos](oscillators/#oslf_sawpos) &nbsp; &nbsp;
+[(os.)lf_sawpos_phase](oscillators/#oslf_sawpos_phase) &nbsp; &nbsp;
+[(os.)lf_sawpos_reset](oscillators/#oslf_sawpos_reset) &nbsp; &nbsp;
+[(os.)lf_sawpos_phase_reset](oscillators/#oslf_sawpos_phase_reset) &nbsp; &nbsp;
+[(os.)lf_saw](oscillators/#oslf_saw) &nbsp; &nbsp;
+[(os.)sawN](oscillators/#ossawn) &nbsp; &nbsp;
+[(os.)sawNp](oscillators/#ossawnp) &nbsp; &nbsp;
+[(os.)saw2, (os.)saw3, (os.)saw4](oscillators/#ossaw2,-ossaw3,-ossaw4) &nbsp; &nbsp;
+[(os.)saw2ptr](oscillators/#ossaw2ptr) &nbsp; &nbsp;
+[(os.)saw2dpw](oscillators/#ossaw2dpw) &nbsp; &nbsp;
+[(os.)sawtooth](oscillators/#ossawtooth) &nbsp; &nbsp;
+[(os.)saw2f2, (os.)saw2f4](oscillators/#ossaw2f2,-ossaw2f4) &nbsp; &nbsp;
+[(os.)impulse](oscillators/#osimpulse) &nbsp; &nbsp;
+[(os.)pulsetrainN](oscillators/#ospulsetrainn) &nbsp; &nbsp;
+[(os.)pulsetrain](oscillators/#ospulsetrain) &nbsp; &nbsp;
+[(os.)squareN](oscillators/#ossquaren) &nbsp; &nbsp;
+[(os.)square](oscillators/#ossquare) &nbsp; &nbsp;
+[(os.)imptrainN](oscillators/#osimptrainn) &nbsp; &nbsp;
+[(os.)imptrain](oscillators/#osimptrain) &nbsp; &nbsp;
+[(os.)triangleN](oscillators/#ostrianglen) &nbsp; &nbsp;
+[(os.)triangle](oscillators/#ostriangle) &nbsp; &nbsp;
+[(os.)oscb](oscillators/#ososcb) &nbsp; &nbsp;
+[(os.)oscrq](oscillators/#ososcrq) &nbsp; &nbsp;
+[(os.)oscrs](oscillators/#ososcrs) &nbsp; &nbsp;
+[(os.)oscrc](oscillators/#ososcrc) &nbsp; &nbsp;
+[(os.)oscs](oscillators/#ososcs) &nbsp; &nbsp;
+[(os.)quadosc](oscillators/#osquadosc) &nbsp; &nbsp;
+[(os.)sidebands](oscillators/#ossidebands) &nbsp; &nbsp;
+[(os.)sidebands_list](oscillators/#ossidebands_list) &nbsp; &nbsp;
+[(os.)oscwc](oscillators/#ososcwc) &nbsp; &nbsp;
+[(os.)oscws](oscillators/#ososcws) &nbsp; &nbsp;
+[(os.)oscq](oscillators/#ososcq) &nbsp; &nbsp;
+[(os.)oscw](oscillators/#ososcw) &nbsp; &nbsp;
+[(os.)CZsaw](oscillators/#osczsaw) &nbsp; &nbsp;
+[(os.)CZsawP](oscillators/#osczsawp) &nbsp; &nbsp;
+[(os.)CZsquare](oscillators/#osczsquare) &nbsp; &nbsp;
+[(os.)CZsquareP](oscillators/#osczsquarep) &nbsp; &nbsp;
+[(os.)CZpulse](oscillators/#osczpulse) &nbsp; &nbsp;
+[(os.)CZpulseP](oscillators/#osczpulsep) &nbsp; &nbsp;
+[(os.)CZsinePulse](oscillators/#osczsinepulse) &nbsp; &nbsp;
+[(os.)CZsinePulseP](oscillators/#osczsinepulsep) &nbsp; &nbsp;
+[(os.)CZhalfSine](oscillators/#osczhalfsine) &nbsp; &nbsp;
+[(os.)CZhalfSineP](oscillators/#osczhalfsinep) &nbsp; &nbsp;
+[(os.)CZresSaw](oscillators/#osczressaw) &nbsp; &nbsp;
+[(os.)CZresTriangle](oscillators/#osczrestriangle) &nbsp; &nbsp;
+[(os.)CZresTrap](oscillators/#osczrestrap) &nbsp; &nbsp;
+[(os.)polyblep](oscillators/#ospolyblep) &nbsp; &nbsp;
+[(os.)polyblep_saw](oscillators/#ospolyblep_saw) &nbsp; &nbsp;
+[(os.)polyblep_square](oscillators/#ospolyblep_square) &nbsp; &nbsp;
+[(os.)polyblep_triangle](oscillators/#ospolyblep_triangle) &nbsp; &nbsp;
+
+## noises
+
+[(no.)noise](noises/#nonoise) &nbsp; &nbsp;
+[(no.)multirandom](noises/#nomultirandom) &nbsp; &nbsp;
+[(no.)multinoise](noises/#nomultinoise) &nbsp; &nbsp;
+[(no.)noises](noises/#nonoises) &nbsp; &nbsp;
+[(no.)randomseed](noises/#norandomseed) &nbsp; &nbsp;
+[(no.)rnoise](noises/#nornoise) &nbsp; &nbsp;
+[(no.)rmultirandom](noises/#normultirandom) &nbsp; &nbsp;
+[(no.)rmultinoise](noises/#normultinoise) &nbsp; &nbsp;
+[(no.)rnoises](noises/#nornoises) &nbsp; &nbsp;
+[(no.)pink_noise](noises/#nopink_noise) &nbsp; &nbsp;
+[(no.)pink_noise_vm](noises/#nopink_noise_vm) &nbsp; &nbsp;
+[(no.)lfnoise, (no.)lfnoise0 and (no.)lfnoiseN](noises/#nolfnoise,-nolfnoise0-and-nolfnoisen) &nbsp; &nbsp;
+[(no.)sparse_noise](noises/#nosparse_noise) &nbsp; &nbsp;
+[(no.)velvet_noise_vm](noises/#novelvet_noise_vm) &nbsp; &nbsp;
+[(no.)gnoise](noises/#nognoise) &nbsp; &nbsp;
+[(no.)colored_noise](noises/#nocolored_noise) &nbsp; &nbsp;
+
+## phaflangers
+
+[(pf.)flanger_mono](phaflangers/#pfflanger_mono) &nbsp; &nbsp;
+[(pf.)flanger_stereo](phaflangers/#pfflanger_stereo) &nbsp; &nbsp;
+[(pf.)phaser2_mono](phaflangers/#pfphaser2_mono) &nbsp; &nbsp;
+[(pf.)phaser2_stereo](phaflangers/#pfphaser2_stereo) &nbsp; &nbsp;
+
+## physmodels
+
+[(pm.)speedOfSound](physmodels/#pmspeedofsound) &nbsp; &nbsp;
+[(pm.)maxLength](physmodels/#pmmaxlength) &nbsp; &nbsp;
+[(pm.)f2l](physmodels/#pmf2l) &nbsp; &nbsp;
+[(pm.)l2f](physmodels/#pml2f) &nbsp; &nbsp;
+[(pm.)l2s](physmodels/#pml2s) &nbsp; &nbsp;
+[(pm.)basicBlock](physmodels/#pmbasicblock) &nbsp; &nbsp;
+[(pm.)chain](physmodels/#pmchain) &nbsp; &nbsp;
+[(pm.)inLeftWave](physmodels/#pminleftwave) &nbsp; &nbsp;
+[(pm.)inRightWave](physmodels/#pminrightwave) &nbsp; &nbsp;
+[(pm.)in](physmodels/#pmin) &nbsp; &nbsp;
+[(pm.)outLeftWave](physmodels/#pmoutleftwave) &nbsp; &nbsp;
+[(pm.)outRightWave](physmodels/#pmoutrightwave) &nbsp; &nbsp;
+[(pm.)out](physmodels/#pmout) &nbsp; &nbsp;
+[(pm.)terminations](physmodels/#pmterminations) &nbsp; &nbsp;
+[(pm.)lTermination](physmodels/#pmltermination) &nbsp; &nbsp;
+[(pm.)rTermination](physmodels/#pmrtermination) &nbsp; &nbsp;
+[(pm.)closeIns](physmodels/#pmcloseins) &nbsp; &nbsp;
+[(pm.)closeOuts](physmodels/#pmcloseouts) &nbsp; &nbsp;
+[(pm.)endChain](physmodels/#pmendchain) &nbsp; &nbsp;
+[(pm.)waveguideN](physmodels/#pmwaveguiden) &nbsp; &nbsp;
+[(pm.)waveguide](physmodels/#pmwaveguide) &nbsp; &nbsp;
+[(pm.)bridgeFilter](physmodels/#pmbridgefilter) &nbsp; &nbsp;
+[(pm.)modeFilter](physmodels/#pmmodefilter) &nbsp; &nbsp;
+[(pm.)stringSegment](physmodels/#pmstringsegment) &nbsp; &nbsp;
+[(pm.)openString](physmodels/#pmopenstring) &nbsp; &nbsp;
+[(pm.)nylonString](physmodels/#pmnylonstring) &nbsp; &nbsp;
+[(pm.)steelString](physmodels/#pmsteelstring) &nbsp; &nbsp;
+[(pm.)openStringPick](physmodels/#pmopenstringpick) &nbsp; &nbsp;
+[(pm.)openStringPickUp](physmodels/#pmopenstringpickup) &nbsp; &nbsp;
+[(pm.)openStringPickDown](physmodels/#pmopenstringpickdown) &nbsp; &nbsp;
+[(pm.)ksReflexionFilter](physmodels/#pmksreflexionfilter) &nbsp; &nbsp;
+[(pm.)rStringRigidTermination](physmodels/#pmrstringrigidtermination) &nbsp; &nbsp;
+[(pm.)lStringRigidTermination](physmodels/#pmlstringrigidtermination) &nbsp; &nbsp;
+[(pm.)elecGuitarBridge](physmodels/#pmelecguitarbridge) &nbsp; &nbsp;
+[(pm.)elecGuitarNuts](physmodels/#pmelecguitarnuts) &nbsp; &nbsp;
+[(pm.)guitarBridge](physmodels/#pmguitarbridge) &nbsp; &nbsp;
+[(pm.)guitarNuts](physmodels/#pmguitarnuts) &nbsp; &nbsp;
+[(pm.)idealString](physmodels/#pmidealstring) &nbsp; &nbsp;
+[(pm.)ks](physmodels/#pmks) &nbsp; &nbsp;
+[(pm.)ks_ui_MIDI](physmodels/#pmks_ui_midi) &nbsp; &nbsp;
+[(pm.)elecGuitarModel](physmodels/#pmelecguitarmodel) &nbsp; &nbsp;
+[(pm.)elecGuitar](physmodels/#pmelecguitar) &nbsp; &nbsp;
+[(pm.)elecGuitar_ui_MIDI](physmodels/#pmelecguitar_ui_midi) &nbsp; &nbsp;
+[(pm.)guitarBody](physmodels/#pmguitarbody) &nbsp; &nbsp;
+[(pm.)guitarModel](physmodels/#pmguitarmodel) &nbsp; &nbsp;
+[(pm.)guitar](physmodels/#pmguitar) &nbsp; &nbsp;
+[(pm.)guitar_ui_MIDI](physmodels/#pmguitar_ui_midi) &nbsp; &nbsp;
+[(pm.)nylonGuitarModel](physmodels/#pmnylonguitarmodel) &nbsp; &nbsp;
+[(pm.)nylonGuitar](physmodels/#pmnylonguitar) &nbsp; &nbsp;
+[(pm.)nylonGuitar_ui_MIDI](physmodels/#pmnylonguitar_ui_midi) &nbsp; &nbsp;
+[(pm.)modeInterpRes](physmodels/#pmmodeinterpres) &nbsp; &nbsp;
+[(pm.)modularInterpBody](physmodels/#pmmodularinterpbody) &nbsp; &nbsp;
+[(pm.)modularInterpStringModel](physmodels/#pmmodularinterpstringmodel) &nbsp; &nbsp;
+[(pm.)modularInterpInstr](physmodels/#pmmodularinterpinstr) &nbsp; &nbsp;
+[(pm.)modularInterpInstr_ui_MIDI](physmodels/#pmmodularinterpinstr_ui_midi) &nbsp; &nbsp;
+[(pm.)bowTable](physmodels/#pmbowtable) &nbsp; &nbsp;
+[(pm.)violinBowTable](physmodels/#pmviolinbowtable) &nbsp; &nbsp;
+[(pm.)bowInteraction](physmodels/#pmbowinteraction) &nbsp; &nbsp;
+[(pm.)violinBow](physmodels/#pmviolinbow) &nbsp; &nbsp;
+[(pm.)violinBowedString](physmodels/#pmviolinbowedstring) &nbsp; &nbsp;
+[(pm.)violinNuts](physmodels/#pmviolinnuts) &nbsp; &nbsp;
+[(pm.)violinBridge](physmodels/#pmviolinbridge) &nbsp; &nbsp;
+[(pm.)violinBody](physmodels/#pmviolinbody) &nbsp; &nbsp;
+[(pm.)violinModel](physmodels/#pmviolinmodel) &nbsp; &nbsp;
+[(pm.)violin_ui](physmodels/#pmviolin_ui) &nbsp; &nbsp;
+[(pm.)violin_ui_MIDI](physmodels/#pmviolin_ui_midi) &nbsp; &nbsp;
+[(pm.)openTube](physmodels/#pmopentube) &nbsp; &nbsp;
+[(pm.)reedTable](physmodels/#pmreedtable) &nbsp; &nbsp;
+[(pm.)fluteJetTable](physmodels/#pmflutejettable) &nbsp; &nbsp;
+[(pm.)brassLipsTable](physmodels/#pmbrasslipstable) &nbsp; &nbsp;
+[(pm.)clarinetReed](physmodels/#pmclarinetreed) &nbsp; &nbsp;
+[(pm.)clarinetMouthPiece](physmodels/#pmclarinetmouthpiece) &nbsp; &nbsp;
+[(pm.)brassLips](physmodels/#pmbrasslips) &nbsp; &nbsp;
+[(pm.)fluteEmbouchure](physmodels/#pmfluteembouchure) &nbsp; &nbsp;
+[(pm.)wBell](physmodels/#pmwbell) &nbsp; &nbsp;
+[(pm.)fluteHead](physmodels/#pmflutehead) &nbsp; &nbsp;
+[(pm.)fluteFoot](physmodels/#pmflutefoot) &nbsp; &nbsp;
+[(pm.)clarinetModel](physmodels/#pmclarinetmodel) &nbsp; &nbsp;
+[(pm.)clarinetModel_ui](physmodels/#pmclarinetmodel_ui) &nbsp; &nbsp;
+[(pm.)clarinet_ui](physmodels/#pmclarinet_ui) &nbsp; &nbsp;
+[(pm.)clarinet_ui_MIDI](physmodels/#pmclarinet_ui_midi) &nbsp; &nbsp;
+[(pm.)brassModel](physmodels/#pmbrassmodel) &nbsp; &nbsp;
+[(pm.)brassModel_ui](physmodels/#pmbrassmodel_ui) &nbsp; &nbsp;
+[(pm.)brass_ui](physmodels/#pmbrass_ui) &nbsp; &nbsp;
+[(pm.)brass_ui_MIDI](physmodels/#pmbrass_ui_midi) &nbsp; &nbsp;
+[(pm.)fluteModel](physmodels/#pmflutemodel) &nbsp; &nbsp;
+[(pm.)fluteModel_ui](physmodels/#pmflutemodel_ui) &nbsp; &nbsp;
+[(pm.)flute_ui](physmodels/#pmflute_ui) &nbsp; &nbsp;
+[(pm.)flute_ui_MIDI](physmodels/#pmflute_ui_midi) &nbsp; &nbsp;
+[(pm.)impulseExcitation](physmodels/#pmimpulseexcitation) &nbsp; &nbsp;
+[(pm.)strikeModel](physmodels/#pmstrikemodel) &nbsp; &nbsp;
+[(pm.)strike](physmodels/#pmstrike) &nbsp; &nbsp;
+[(pm.)pluckString](physmodels/#pmpluckstring) &nbsp; &nbsp;
+[(pm.)blower](physmodels/#pmblower) &nbsp; &nbsp;
+[(pm.)blower_ui](physmodels/#pmblower_ui) &nbsp; &nbsp;
+[(pm.)djembeModel](physmodels/#pmdjembemodel) &nbsp; &nbsp;
+[(pm.)djembe](physmodels/#pmdjembe) &nbsp; &nbsp;
+[(pm.)djembe_ui_MIDI](physmodels/#pmdjembe_ui_midi) &nbsp; &nbsp;
+[(pm.)marimbaBarModel](physmodels/#pmmarimbabarmodel) &nbsp; &nbsp;
+[(pm.)marimbaResTube](physmodels/#pmmarimbarestube) &nbsp; &nbsp;
+[(pm.)marimbaModel](physmodels/#pmmarimbamodel) &nbsp; &nbsp;
+[(pm.)marimba](physmodels/#pmmarimba) &nbsp; &nbsp;
+[(pm.)marimba_ui_MIDI](physmodels/#pmmarimba_ui_midi) &nbsp; &nbsp;
+[(pm.)churchBellModel](physmodels/#pmchurchbellmodel) &nbsp; &nbsp;
+[(pm.)churchBell](physmodels/#pmchurchbell) &nbsp; &nbsp;
+[(pm.)churchBell_ui](physmodels/#pmchurchbell_ui) &nbsp; &nbsp;
+[(pm.)englishBellModel](physmodels/#pmenglishbellmodel) &nbsp; &nbsp;
+[(pm.)englishBell](physmodels/#pmenglishbell) &nbsp; &nbsp;
+[(pm.)englishBell_ui](physmodels/#pmenglishbell_ui) &nbsp; &nbsp;
+[(pm.)frenchBellModel](physmodels/#pmfrenchbellmodel) &nbsp; &nbsp;
+[(pm.)frenchBell](physmodels/#pmfrenchbell) &nbsp; &nbsp;
+[(pm.)frenchBell_ui](physmodels/#pmfrenchbell_ui) &nbsp; &nbsp;
+[(pm.)germanBellModel](physmodels/#pmgermanbellmodel) &nbsp; &nbsp;
+[(pm.)germanBell](physmodels/#pmgermanbell) &nbsp; &nbsp;
+[(pm.)germanBell_ui](physmodels/#pmgermanbell_ui) &nbsp; &nbsp;
+[(pm.)russianBellModel](physmodels/#pmrussianbellmodel) &nbsp; &nbsp;
+[(pm.)russianBell](physmodels/#pmrussianbell) &nbsp; &nbsp;
+[(pm.)russianBell_ui](physmodels/#pmrussianbell_ui) &nbsp; &nbsp;
+[(pm.)standardBellModel](physmodels/#pmstandardbellmodel) &nbsp; &nbsp;
+[(pm.)standardBell](physmodels/#pmstandardbell) &nbsp; &nbsp;
+[(pm.)standardBell_ui](physmodels/#pmstandardbell_ui) &nbsp; &nbsp;
+[(pm.)formantValues](physmodels/#pmformantvalues) &nbsp; &nbsp;
+[(pm.)voiceGender](physmodels/#pmvoicegender) &nbsp; &nbsp;
+[(pm.)skirtWidthMultiplier](physmodels/#pmskirtwidthmultiplier) &nbsp; &nbsp;
+[(pm.)autobendFreq](physmodels/#pmautobendfreq) &nbsp; &nbsp;
+[(pm.)vocalEffort](physmodels/#pmvocaleffort) &nbsp; &nbsp;
+[(pm.)fof](physmodels/#pmfof) &nbsp; &nbsp;
+[(pm.)fofSH](physmodels/#pmfofsh) &nbsp; &nbsp;
+[(pm.)fofCycle](physmodels/#pmfofcycle) &nbsp; &nbsp;
+[(pm.)fofSmooth](physmodels/#pmfofsmooth) &nbsp; &nbsp;
+[(pm.)formantFilterFofCycle](physmodels/#pmformantfilterfofcycle) &nbsp; &nbsp;
+[(pm.)formantFilterFofSmooth](physmodels/#pmformantfilterfofsmooth) &nbsp; &nbsp;
+[(pm.)formantFilterBP](physmodels/#pmformantfilterbp) &nbsp; &nbsp;
+[(pm.)formantFilterbank](physmodels/#pmformantfilterbank) &nbsp; &nbsp;
+[(pm.)formantFilterbankFofCycle](physmodels/#pmformantfilterbankfofcycle) &nbsp; &nbsp;
+[(pm.)formantFilterbankFofSmooth](physmodels/#pmformantfilterbankfofsmooth) &nbsp; &nbsp;
+[(pm.)formantFilterbankBP](physmodels/#pmformantfilterbankbp) &nbsp; &nbsp;
+[(pm.)SFFormantModel](physmodels/#pmsfformantmodel) &nbsp; &nbsp;
+[(pm.)SFFormantModelFofCycle](physmodels/#pmsfformantmodelfofcycle) &nbsp; &nbsp;
+[(pm.)SFFormantModelFofSmooth](physmodels/#pmsfformantmodelfofsmooth) &nbsp; &nbsp;
+[(pm.)SFFormantModelBP](physmodels/#pmsfformantmodelbp) &nbsp; &nbsp;
+[(pm.)SFFormantModelFofCycle_ui](physmodels/#pmsfformantmodelfofcycle_ui) &nbsp; &nbsp;
+[(pm.)SFFormantModelFofSmooth_ui](physmodels/#pmsfformantmodelfofsmooth_ui) &nbsp; &nbsp;
+[(pm.)SFFormantModelBP_ui](physmodels/#pmsfformantmodelbp_ui) &nbsp; &nbsp;
+[(pm.)SFFormantModelFofCycle_ui_MIDI](physmodels/#pmsfformantmodelfofcycle_ui_midi) &nbsp; &nbsp;
+[(pm.)SFFormantModelFofSmooth_ui_MIDI](physmodels/#pmsfformantmodelfofsmooth_ui_midi) &nbsp; &nbsp;
+[(pm.)SFFormantModelBP_ui_MIDI](physmodels/#pmsfformantmodelbp_ui_midi) &nbsp; &nbsp;
+[(pm.)allpassNL](physmodels/#pmallpassnl) &nbsp; &nbsp;
+[(pm).modalModel](physmodels/#pmmodalmodel) &nbsp; &nbsp;
+
+## quantizers
+
+[(qu.)quantize](quantizers/#ququantize) &nbsp; &nbsp;
+[(qu.)quantizeSmoothed](quantizers/#ququantizesmoothed) &nbsp; &nbsp;
+[(qu.)ionian](quantizers/#quionian) &nbsp; &nbsp;
+[(qu.)dorian](quantizers/#qudorian) &nbsp; &nbsp;
+[(qu.)phrygian](quantizers/#quphrygian) &nbsp; &nbsp;
+[(qu.)lydian](quantizers/#qulydian) &nbsp; &nbsp;
+[(qu.)mixo](quantizers/#qumixo) &nbsp; &nbsp;
+[(qu.)eolian](quantizers/#queolian) &nbsp; &nbsp;
+[(qu.)locrian](quantizers/#qulocrian) &nbsp; &nbsp;
+[(qu.)pentanat](quantizers/#qupentanat) &nbsp; &nbsp;
+[(qu.)kumoi](quantizers/#qukumoi) &nbsp; &nbsp;
+[(qu.)natural](quantizers/#qunatural) &nbsp; &nbsp;
+[(qu.)dodeca](quantizers/#qudodeca) &nbsp; &nbsp;
+[(qu.)dimin](quantizers/#qudimin) &nbsp; &nbsp;
+[(qu.)penta](quantizers/#qupenta) &nbsp; &nbsp;
+
+## reducemaps
+
+[(rm.)parReduce](reducemaps/#rmparreduce) &nbsp; &nbsp;
+[(rm.)topReduce](reducemaps/#rmtopreduce) &nbsp; &nbsp;
+[(rm.)botReduce](reducemaps/#rmbotreduce) &nbsp; &nbsp;
+[(rm.)reduce](reducemaps/#rmreduce) &nbsp; &nbsp;
+[(rm.)reducemap](reducemaps/#rmreducemap) &nbsp; &nbsp;
+
+## reverbs
+
+[(re.)jcrev](reverbs/#rejcrev) &nbsp; &nbsp;
+[(re.)satrev](reverbs/#resatrev) &nbsp; &nbsp;
+[(re.)fdnrev0](reverbs/#refdnrev0) &nbsp; &nbsp;
+[(re.)zita_rev_fdn](reverbs/#rezita_rev_fdn) &nbsp; &nbsp;
+[(re.)zita_rev1_stereo](reverbs/#rezita_rev1_stereo) &nbsp; &nbsp;
+[(re.)zita_rev1_ambi](reverbs/#rezita_rev1_ambi) &nbsp; &nbsp;
+[(re.)vital_rev](reverbs/#revital_rev) &nbsp; &nbsp;
+[(re.)mono_freeverb](reverbs/#remono_freeverb) &nbsp; &nbsp;
+[(re.)stereo_freeverb](reverbs/#restereo_freeverb) &nbsp; &nbsp;
+[(re.)dattorro_rev](reverbs/#redattorro_rev) &nbsp; &nbsp;
+[(re.)dattorro_rev_default](reverbs/#redattorro_rev_default) &nbsp; &nbsp;
+[(re.)jpverb](reverbs/#rejpverb) &nbsp; &nbsp;
+[(re.)greyhole](reverbs/#regreyhole) &nbsp; &nbsp;
+
+## routes
+
+[(ro.)cross](routes/#rocross) &nbsp; &nbsp;
+[(ro.)crossnn](routes/#rocrossnn) &nbsp; &nbsp;
+[(ro.)crossn1](routes/#rocrossn1) &nbsp; &nbsp;
+[(ro.)cross1n](routes/#rocross1n) &nbsp; &nbsp;
+[(ro.)crossNM](routes/#rocrossnm) &nbsp; &nbsp;
+[(ro.)interleave](routes/#rointerleave) &nbsp; &nbsp;
+[(ro.)butterfly](routes/#robutterfly) &nbsp; &nbsp;
+[(ro.)hadamard](routes/#rohadamard) &nbsp; &nbsp;
+[(ro.)recursivize](routes/#rorecursivize) &nbsp; &nbsp;
+[(ro.)bubbleSort](routes/#robubblesort) &nbsp; &nbsp;
+
+## signals
+
+[(si.)bus](signals/#sibus) &nbsp; &nbsp;
+[(si.)block](signals/#siblock) &nbsp; &nbsp;
+[(si.)interpolate](signals/#siinterpolate) &nbsp; &nbsp;
+[(si.)repeat](signals/#sirepeat) &nbsp; &nbsp;
+[(si.)smoo](signals/#sismoo) &nbsp; &nbsp;
+[(si.)polySmooth](signals/#sipolysmooth) &nbsp; &nbsp;
+[(si.)smoothAndH](signals/#sismoothandh) &nbsp; &nbsp;
+[(si.)bsmooth](signals/#sibsmooth) &nbsp; &nbsp;
+[(si.)dot](signals/#sidot) &nbsp; &nbsp;
+[(si.)smooth](signals/#sismooth) &nbsp; &nbsp;
+[(si.)smoothq](signals/#sismoothq) &nbsp; &nbsp;
+[(si.)cbus](signals/#sicbus) &nbsp; &nbsp;
+[(si.)cmul](signals/#sicmul) &nbsp; &nbsp;
+[(si.)cconj](signals/#sicconj) &nbsp; &nbsp;
+[(si.)onePoleSwitching](signals/#sionepoleswitching) &nbsp; &nbsp;
+[(si.)rev](signals/#sirev) &nbsp; &nbsp;
+[(si.)vecOp](signals/#sivecop) &nbsp; &nbsp;
+[(si.)bpar](signals/#sibpar) &nbsp; &nbsp;
+[(si.)bsum](signals/#sibsum) &nbsp; &nbsp;
+[(si.)bprod](signals/#sibprod) &nbsp; &nbsp;
+
+## soundfiles
+
+[(so.)loop](soundfiles/#soloop) &nbsp; &nbsp;
+[(so.)loop_speed](soundfiles/#soloop_speed) &nbsp; &nbsp;
+[(so.)loop_speed_level](soundfiles/#soloop_speed_level) &nbsp; &nbsp;
+
+## spats
+
+[(sp.)panner](spats/#sppanner) &nbsp; &nbsp;
+[(sp.)constantPowerPan](spats/#spconstantpowerpan) &nbsp; &nbsp;
+[(sp.)spat](spats/#spspat) &nbsp; &nbsp;
+[(sp.)stereoize](spats/#spstereoize) &nbsp; &nbsp;
+
+## synths
+
+[(sy.)popFilterDrum](synths/#sypopfilterdrum) &nbsp; &nbsp;
+[(sy.)dubDub](synths/#sydubdub) &nbsp; &nbsp;
+[(sy.)sawTrombone](synths/#sysawtrombone) &nbsp; &nbsp;
+[(sy.)combString](synths/#sycombstring) &nbsp; &nbsp;
+[(sy.)additiveDrum](synths/#syadditivedrum) &nbsp; &nbsp;
+[(sy.)fm](synths/#syfm) &nbsp; &nbsp;
+[(sy.)kick](synths/#sykick) &nbsp; &nbsp;
+[(sy.)clap](synths/#syclap) &nbsp; &nbsp;
+[(sy.)hat](synths/#syhat) &nbsp; &nbsp;
+
+## vaeffects
+
+[(ve.)moog_vcf](vaeffects/#vemoog_vcf) &nbsp; &nbsp;
+[(ve.)moog_vcf_2b[n]](vaeffects/#vemoog_vcf_2bn) &nbsp; &nbsp;
+[(ve.)moogLadder](vaeffects/#vemoogladder) &nbsp; &nbsp;
+[(ve.)moogHalfLadder](vaeffects/#vemooghalfladder) &nbsp; &nbsp;
+[(ve.)diodeLadder](vaeffects/#vediodeladder) &nbsp; &nbsp;
+[(ve.)korg35LPF](vaeffects/#vekorg35lpf) &nbsp; &nbsp;
+[(ve.)korg35HPF](vaeffects/#vekorg35hpf) &nbsp; &nbsp;
+[(ve.)oberheim](vaeffects/#veoberheim) &nbsp; &nbsp;
+[(ve.)oberheimBSF](vaeffects/#veoberheimbsf) &nbsp; &nbsp;
+[(ve.)oberheimBPF](vaeffects/#veoberheimbpf) &nbsp; &nbsp;
+[(ve.)oberheimHPF](vaeffects/#veoberheimhpf) &nbsp; &nbsp;
+[(ve.)oberheimLPF](vaeffects/#veoberheimlpf) &nbsp; &nbsp;
+[(ve.)sallenKeyOnePole](vaeffects/#vesallenkeyonepole) &nbsp; &nbsp;
+[(ve.)sallenKeyOnePoleLPF](vaeffects/#vesallenkeyonepolelpf) &nbsp; &nbsp;
+[(ve.)sallenKeyOnePoleHPF](vaeffects/#vesallenkeyonepolehpf) &nbsp; &nbsp;
+[(ve.)sallenKey2ndOrder](vaeffects/#vesallenkey2ndorder) &nbsp; &nbsp;
+[(ve.)sallenKey2ndOrderLPF](vaeffects/#vesallenkey2ndorderlpf) &nbsp; &nbsp;
+[(ve.)sallenKey2ndOrderBPF](vaeffects/#vesallenkey2ndorderbpf) &nbsp; &nbsp;
+[(ve.)sallenKey2ndOrderHPF](vaeffects/#vesallenkey2ndorderhpf) &nbsp; &nbsp;
+[(ve.)wah4](vaeffects/#vewah4) &nbsp; &nbsp;
+[(ve.)autowah](vaeffects/#veautowah) &nbsp; &nbsp;
+[(ve.)crybaby](vaeffects/#vecrybaby) &nbsp; &nbsp;
+[(ve.)vocoder](vaeffects/#vevocoder) &nbsp; &nbsp;
+
+## version
+
+[(vl.)version](version/#vlversion) &nbsp; &nbsp;
+
+## wdmodels
+
+[(wd.)resistor](wdmodels/#wdresistor) &nbsp; &nbsp;
+[(wd.)resistor_Vout](wdmodels/#wdresistor_vout) &nbsp; &nbsp;
+[(wd.)resistor_Iout](wdmodels/#wdresistor_iout) &nbsp; &nbsp;
+[(wd.)u_voltage](wdmodels/#wdu_voltage) &nbsp; &nbsp;
+[(wd.)u_current](wdmodels/#wdu_current) &nbsp; &nbsp;
+[(wd.)resVoltage](wdmodels/#wdresvoltage) &nbsp; &nbsp;
+[(wd.)resVoltage_Vout](wdmodels/#wdresvoltage_vout) &nbsp; &nbsp;
+[(wd.)u_resVoltage](wdmodels/#wdu_resvoltage) &nbsp; &nbsp;
+[(wd.)resCurrent](wdmodels/#wdrescurrent) &nbsp; &nbsp;
+[(wd.)u_resCurrent](wdmodels/#wdu_rescurrent) &nbsp; &nbsp;
+[(wd.)u_switch](wdmodels/#wdu_switch) &nbsp; &nbsp;
+[(wd.)capacitor](wdmodels/#wdcapacitor) &nbsp; &nbsp;
+[(wd.)capacitor_Vout](wdmodels/#wdcapacitor_vout) &nbsp; &nbsp;
+[(wd.)inductor](wdmodels/#wdinductor) &nbsp; &nbsp;
+[(wd.)inductor_Vout](wdmodels/#wdinductor_vout) &nbsp; &nbsp;
+[(wd.)u_idealDiode](wdmodels/#wdu_idealdiode) &nbsp; &nbsp;
+[(wd.)u_chua](wdmodels/#wdu_chua) &nbsp; &nbsp;
+[(wd.)lambert](wdmodels/#wdlambert) &nbsp; &nbsp;
+[(wd.)u_diodePair](wdmodels/#wdu_diodepair) &nbsp; &nbsp;
+[(wd.)u_diodeSingle](wdmodels/#wdu_diodesingle) &nbsp; &nbsp;
+[(wd.)u_diodeAntiparallel](wdmodels/#wdu_diodeantiparallel) &nbsp; &nbsp;
+[(wd.)u_parallel2Port](wdmodels/#wdu_parallel2port) &nbsp; &nbsp;
+[(wd.)parallel2Port](wdmodels/#wdparallel2port) &nbsp; &nbsp;
+[(wd.)u_series2Port](wdmodels/#wdu_series2port) &nbsp; &nbsp;
+[(wd.)series2Port](wdmodels/#wdseries2port) &nbsp; &nbsp;
+[(wd.)parallelCurrent](wdmodels/#wdparallelcurrent) &nbsp; &nbsp;
+[(wd.)seriesVoltage](wdmodels/#wdseriesvoltage) &nbsp; &nbsp;
+[(wd.)u_transformer](wdmodels/#wdu_transformer) &nbsp; &nbsp;
+[(wd.)transformer](wdmodels/#wdtransformer) &nbsp; &nbsp;
+[(wd.)u_transformerActive](wdmodels/#wdu_transformeractive) &nbsp; &nbsp;
+[(wd.)transformerActive](wdmodels/#wdtransformeractive) &nbsp; &nbsp;
+[(wd.)parallel](wdmodels/#wdparallel) &nbsp; &nbsp;
+[(wd.)series](wdmodels/#wdseries) &nbsp; &nbsp;
+[(wd.)u_sixportPassive](wdmodels/#wdu_sixportpassive) &nbsp; &nbsp;
+[(wd.)genericNode](wdmodels/#wdgenericnode) &nbsp; &nbsp;
+[(wd.)genericNode_Vout](wdmodels/#wdgenericnode_vout) &nbsp; &nbsp;
+[(wd.)genericNode_Iout](wdmodels/#wdgenericnode_iout) &nbsp; &nbsp;
+[(wd.)u_genericNode](wdmodels/#wdu_genericnode) &nbsp; &nbsp;
+[(wd.)builddown](wdmodels/#wdbuilddown) &nbsp; &nbsp;
+[(wd.)buildup](wdmodels/#wdbuildup) &nbsp; &nbsp;
+[(wd.)getres](wdmodels/#wdgetres) &nbsp; &nbsp;
+[(wd.)parres](wdmodels/#wdparres) &nbsp; &nbsp;
+[(wd.)buildout](wdmodels/#wdbuildout) &nbsp; &nbsp;
+[(wd.)buildtree](wdmodels/#wdbuildtree) &nbsp; &nbsp;
+
+## webaudio
+
+[(wa.)lowpass2](webaudio/#walowpass2) &nbsp; &nbsp;
+[(wa.)highpass2](webaudio/#wahighpass2) &nbsp; &nbsp;
+[(wa.)bandpass2](webaudio/#wabandpass2) &nbsp; &nbsp;
+[(wa.)notch2](webaudio/#wanotch2) &nbsp; &nbsp;
+[(wa.)allpass2](webaudio/#waallpass2) &nbsp; &nbsp;
+[(wa.)peaking2](webaudio/#wapeaking2) &nbsp; &nbsp;
+[(wa.)lowshelf2](webaudio/#walowshelf2) &nbsp; &nbsp;
+[(wa.)highshelf2](webaudio/#wahighshelf2) &nbsp; &nbsp;
