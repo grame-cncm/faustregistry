@@ -40,10 +40,16 @@ def write_library_overview(user, library, versions):
         for version in versions:
             f.write(f"### [{version}](./{version}/doc.md)\n")
 
+
+built_in = ['.git', 'documentation', '.github', 'docs', 'Readme.md']
+
+
 def process_registry():
     for user in os.listdir(registry_path):
-        if(user == ".git" or user == "documentation"):
+        
+        if(user in built_in):
             continue;
+
         user_path = os.path.join(registry_path, user)
 
         if os.path.isdir(user_path):
